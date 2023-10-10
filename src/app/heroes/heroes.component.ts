@@ -28,7 +28,9 @@ export class HeroesComponent {
   getHeroes(): void {
     /* Synchronous signature.
     This approach won't work in a real application that uses asynchronous calls.
-    It works now because our service synchronously returns mock heroes.*/
+    It works now because our service synchronously returns mock heroes.
+    This method WON'T WORK when HeroService will be making actual requests of a
+    remote server*/
     /*this.heroes = this.heroService.getHeroes();*/
 
     /*Asynchronous signature: 
