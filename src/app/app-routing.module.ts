@@ -7,6 +7,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 or pastes a URL into the browser address bar. */
 const routes: Routes = [
   // Path needs to be a string that matches the URL in the browser address bar
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'heroes', component: HeroesComponent }
   
