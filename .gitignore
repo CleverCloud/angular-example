@@ -5,6 +5,7 @@
 /tmp
 /out-tsc
 /bazel-out
+/dist/angular-tour-of-heroes/*
 
 # Node
 /node_modules
